@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #000000;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background: #F2E7DD;
+    color: #555;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul { 
+list-style: none; 
+padding: 0; 
+display: flex; 
+gap: 1rem; 
+justify-content: flex-end; /* Add this line */ 
+}
+
+header nav ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+
+/* Home Section Styles */
+.home {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+.hero img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 0px;
+    float: left;          /* Add this line */
+    margin-right: 20px;   /* Add this for spacing between image and text */
+    margin-bottom: 10px;  /* Optional: adds space below the image */
+}
+
+/* You might want to adjust your hero text alignment */
+.hero {
+    text-align: left;     /* Change this from center to left */
+}
+
+/* If you have a .cta button, you might want to adjust its alignment too */
+.cta {
+    display: inline-block;
+    /* ... rest of your existing cta styles ... */
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.cta {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* Featured Projects */
+.featured-projects {
+    margin-top: 2rem;
+}
+
+.featured-projects .grid {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.featured-projects .project {
+    background: #F2E7DD;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(20.33% - 1rem);  /* Change from 50% to 33.33% */
+}
+
+.featured-projects .project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* About Section */
+.about {
+    padding: 2rem 0;
+}
+
+.about .profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about .profile img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.about .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.about .skills ul li {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Case Studies Section */
+.case-studies .grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.case-studies .case {
+    background:#F2E7DD;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    width: calc(20.33% - 1rem);  /* Change from 50% to 33.33% */
+}
+
+.case-studies .case img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+.contact a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.contact .social-media li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #F2E7DD;
+    color: #00000;
+    padding: 1rem 0;
+}
+
+
